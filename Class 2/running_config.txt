@@ -1,0 +1,10 @@
+interface Ethernet0
+  ip address 10.10.88.50 255.255.255.254
+ !
+interface Ethernet1
+  ip address 10.86.194.176 255.255.254.0
+ !
+interface Ethernet2
+  shutdown
+  no ip address
+ !
